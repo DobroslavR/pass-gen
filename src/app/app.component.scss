@@ -1,0 +1,24 @@
+:host {
+  width: 100%;
+  display: flex;
+  padding: 30px 0;
+  justify-content: center;
+
+  @media screen and (max-width: 541px) {
+    padding: 0;
+  }
+}
+.pass-box {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  padding: 30px;
+  box-shadow: 0 3px 6px rgba($color: #000000, $alpha: 0.16);
+  @media screen and (max-width: 541px) {
+    box-shadow: none;
+  }
+
+  &__margin {
+    margin-bottom: 20px;
+  }
+}
